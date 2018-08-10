@@ -1,0 +1,21 @@
+Setting Up a Flask App
+
+1. Install Python
+2. Create a directory for the flask project.
+3. From Command Prompt, CD into that directory.
+4. Windows: pip install virtualenv or venv\scripts\activate
+5. pip install Flask
+6. Create Python script (e.g. Hello.py) in that directory for the code
+7. From command line, "Python Hello.py" to run your Flask project.
+8. In the browser, type localhost:5000 to bring up the app.
+
+Note: By default, Flask projects run on port 5000 unless specified otherwise in the app.run() method:
+
+		app.run(host, port, debug, options)
+		
+		host: Hostname to listen on. Defaults to 127.0.0.1 (localhost). Set to ‘0.0.0.0’ to have server available externally
+		port: Defaults to 5000
+		debug: Defaults to false. If set to true, provides a debug information
+		options: To be forwarded to underlying Werkzeug server.
+		
+		

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>Title</title>
+    </head>
+
+    <body>
+        <p>My favorite character is <strong>{{ favorite_character }}</strong>.</p>
+        I also like:
+        <ul>
+            {% for character in other_characters %}
+                <li>{{ character }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
