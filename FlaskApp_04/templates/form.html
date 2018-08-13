@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+	</head>
+	
+	<body>
+		<form action = "{{ url_for('processform') }}" method = "POST">
+			Name: <input type="text" name="name"/><br/>
+			Artist: <input type="text" name="artist"/><br/>
+			Album: <input type="text" name="album"/><br/>
+			Rating: <input type="number" name="rating"/><br/>
+			Year: <input type="number" name="year"/><br/>
+			<input type="submit" value="Submit"/>
+		</form>
+	</body>
+</html>
